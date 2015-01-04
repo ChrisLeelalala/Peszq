@@ -3,7 +3,7 @@ function [ outMatrix ] = main_out( mpcArg )
 %   Generates the matrix of every point in 3D graph
 %   including the following parameters: carbon tax, 
 %   amount of wind unit, carbon emission, and cost.
-
+%   mpcArg should be case24_ieee_rts
 
 % Constant definition
 minCarbonTax = 0; % $/tonne
